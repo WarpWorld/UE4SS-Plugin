@@ -1,0 +1,6 @@
+﻿  dllmain.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(620,1): warning C4005: 'TEXT': macro redefinition
+C:\Users\Natalie\Dropbox\palworld2\RE-UE4SS\deps\first\Unreal\include\Unreal/Core/HAL/Platform.hpp(583,1): message : see previous definition of 'TEXT'
+  LINK : C:\Users\Natalie\Dropbox\palworld2\RE-UE4SS\PalWorldCrowdControl\RelWithDebInfo\PalWorldCrowdControl.dll not found or not built by the last incremental link; performing full link
+     Creating library C:/Users/Natalie/Dropbox/palworld2/RE-UE4SS/PalWorldCrowdControl/RelWithDebInfo/PalWorldCrowdControl.lib and object C:/Users/Natalie/Dropbox/palworld2/RE-UE4SS/PalWorldCrowdControl/RelWithDebInfo/PalWorldCrowdControl.exp
+  PalWorldCrowdControl.vcxproj -> C:\Users\Natalie\Dropbox\palworld2\RE-UE4SS\PalWorldCrowdControl\RelWithDebInfo\PalWorldCrowdControl.dll

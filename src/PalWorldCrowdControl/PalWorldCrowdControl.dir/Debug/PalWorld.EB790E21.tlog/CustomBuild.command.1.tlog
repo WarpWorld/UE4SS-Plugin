@@ -1,0 +1,10 @@
+^C:\USERS\NATALIE\DROPBOX\PALWORLD2\RE-UE4SS\PALWORLDCROWDCONTROL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Natalie/Dropbox/palworld2/RE-UE4SS/PalWorldCrowdControl -BC:/Users/Natalie/Dropbox/palworld2/RE-UE4SS/PalWorldCrowdControl --check-stamp-file C:/Users/Natalie/Dropbox/palworld2/RE-UE4SS/PalWorldCrowdControl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
